@@ -229,6 +229,7 @@ section.about .social a img {
 }
 
 @keyframes waviy {
+
     0%,
     40%,
     100% {
@@ -679,6 +680,10 @@ footer .copyright {
     -moz-transform: translate(50px, -130px);
     -ms-transform: translate(50px, -130px);
 }
+.transition-effect-right{
+    padding: 0 20px;
+    box-sizing: border-box;
+}
 
 @media (max-width:1024px) {
     header #main-nav {
@@ -707,6 +712,8 @@ footer .copyright {
 
     section.about .about-me-img {
         height: 360px;
+        width: 100%;
+        transform: translate(0px, -0px);
     }
 
     section.services .card-wrapper {
@@ -727,6 +734,14 @@ footer .copyright {
 }
 
 @media (max-width:576px) {
+    .range-d-none {
+        display: none;
+    }
+
+    .transition-effect-right {
+        padding: 0;
+    }
+
     .hero {
         flex-direction: column;
     }
