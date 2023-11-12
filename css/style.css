@@ -689,6 +689,9 @@ footer .copyright {
     header #main-nav {
         display: none;
     }
+    .range-d-none {
+        display: none;
+    }
 
     .hamberger {
         display: block;
